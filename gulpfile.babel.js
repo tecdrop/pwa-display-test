@@ -6,7 +6,7 @@ import replace from "gulp-replace";
 
 const displayModes = ["fullscreen", "standalone", "minimal-ui", "browser"];
 
-export const clean = () => del(["dist"]);
+export const clean = () => del(["dist/**", "!dist", "!dist/.git"]);
 
 const copy = (src, dest) => gulp.src(src).pipe(gulp.dest(dest));
 

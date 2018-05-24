@@ -1,7 +1,7 @@
 {
     "short_name": "PWA {display_mode}",
-    "name": "PWA {display_mode} Display Test",
-    "description": "PWA {display_mode} Display Test",
+    "name": "PWA Display Test: {display_mode}",
+    "description": "See how a {display_mode} Progressive Web App (PWA) looks and feels on various devices and operating systems. Try it on Android, iOS, Linux, macOS, Windows, and more.",
     "scope": "/{display_mode}/",
     "background_color": "#5A0FC8",
     "theme_color": "#5A0FC8",
