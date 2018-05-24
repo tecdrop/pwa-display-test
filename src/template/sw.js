@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "index.html",
-    "revision": "dee06cb1b36f56c13a25fb940b9d4d14"
+    "revision": "e86b96513286fcb8bace61c1f93d926f"
   },
   {
     "url": "styles/main.css",
-    "revision": "0d7fa293aed7294a37ce85cfa6d07e06"
+    "revision": "ef303363ccb8676c631ee2c9734f209a"
   },
   {
     "url": "styles/normalize.css",
