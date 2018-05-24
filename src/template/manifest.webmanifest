@@ -1,0 +1,17 @@
+{
+    "short_name": "PWA {display_mode}",
+    "name": "PWA {display_mode} Display Test",
+    "description": "PWA {display_mode} Display Test",
+    "scope": "/{display_mode}/",
+    "background_color": "#5A0FC8",
+    "theme_color": "#5A0FC8",
+    "start_url": "/{display_mode}/?utm_source=pwa",
+    "display": "{display_mode}",
+    "icons": [
+        {
+            "src": "./images/manifest/app-icon-{display_mode}-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

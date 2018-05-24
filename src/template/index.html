@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PWA Display Test: {display_mode}</title>
+    <meta name="description" content="Test how a {display_mode} PWA will look and feel on your device and operating system.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <meta name="theme-color" content="#5A0FC8">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__title">PWA Display Test</h1>
+        <nav class="header__nav" data-display-mode="{display_mode}">
+            <a class="header__link" href="/fullscreen/" data-display-mode="fullscreen">fullscreen</a>
+            <a class="header__link" href="/standalone/" data-display-mode="standalone">standalone</a>
+            <a class="header__link" href="/minimal-ui/" data-display-mode="minimal-ui">minimal-ui</a>
+            <a class="header__link" href="/browser/"    data-display-mode="browser">browser</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <p class="mb--0">Manifest display mode:
+            <strong>{display_mode}</strong>
+        </p>
+
+        <p>
+            Actual display mode:
+            <strong>
+                <data value="fullscreen">fullscreen</data>
+                <data value="standalone">standalone</data>
+                <data value="minimal-ui">minimal-ui</data>
+                <data value="browser">browser</data>
+            </strong>
+        </p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; <a href="https://hwalab.com" target="_blank" rel="noopener">HWALab</a></p>
+    </footer>
+
+
+    <script>
+        // Register service worker
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("/{display_mode}/sw.js", { scope: '/{display_mode}/' });
+            });
+        }
+    </script>
+</body>
+
+</html>

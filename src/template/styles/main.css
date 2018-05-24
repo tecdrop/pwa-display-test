@@ -1,0 +1,133 @@
+/*
+ *  PWA Display Test. Copyright (c) 2018 HWALab. MIT License.
+ *  https://www.hwalab.com/pwa-display-test/
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #5A0FC8;
+    color: #fff;
+    display: grid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    grid-template-areas: "head"
+                         "main"
+                         "foot";
+    grid-template-rows: auto 1fr auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 1rem 0;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header {
+    grid-area: head;
+}
+
+.header__title {
+    font-size: 1.75rem;
+    margin: 0;
+    padding: 1rem;
+}
+
+.header__nav {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 0.5rem;
+}
+
+.header__link {
+    flex-grow: 1;
+    padding: 0.5rem 0;
+}
+
+.header__nav[data-display-mode="fullscreen"] .header__link[data-display-mode="fullscreen"],
+.header__nav[data-display-mode="standalone"] .header__link[data-display-mode="standalone"],
+.header__nav[data-display-mode="minimal-ui"] .header__link[data-display-mode="minimal-ui"],
+.header__nav[data-display-mode="browser"] .header__link[data-display-mode="browser"]
+{
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   Main content
+   ========================================================================== */
+
+.main {
+    align-self: center;
+    grid-area: main;
+    padding: 2rem;
+}
+
+/*
+ * Actual display mode
+ */
+
+data[value] {
+    display: none;
+}
+
+@media all and (display-mode: fullscreen) {
+    data[value="fullscreen"] {
+        display: inline-block;
+    }
+}
+
+@media all and (display-mode: standalone) {
+    data[value="standalone"] {
+        display: inline-block;
+    }
+}
+
+@media all and (display-mode: minimal-ui) {
+    data[value="minimal-ui"] {
+        display: inline-block;
+    }
+}
+
+@media all and (display-mode: browser) {
+    data[value="browser"] {
+        display: inline-block;
+    }
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+    grid-area: foot;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.mb--0 {
+    margin-bottom: 0;
+}
