@@ -45,24 +45,36 @@ p {
    ========================================================================== */
 
 .header {
-    background: #fff;
-    color: #000;
+    background: rgba(0, 0, 0, 0.33);
+    color: #fff;
 }
 
-.header__title {
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin: 0;
-    padding: 1rem;
+@media (min-width: 600px) {
+    .header {
+        padding: 0 1rem;
+    }
 }
 
-.header__nav {
+.header__row {
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
 
+.header__title {
+    flex-grow: 1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+}
+
+.header__button {
+    padding: 1rem;
+}
+
 .header__link {
-    color: #000;
     flex-grow: 1;
     padding: 0.5rem 0;
 }
@@ -72,7 +84,7 @@ p {
 .header__nav[data-display-mode="minimal-ui"] .header__link[data-display-mode="minimal-ui"],
 .header__nav[data-display-mode="browser"] .header__link[data-display-mode="browser"]
 {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #fff;
     font-weight: bold;
 }
 

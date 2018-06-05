@@ -9,8 +9,8 @@
 
     <link rel="manifest" href="manifest.webmanifest">
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="/{display_mode}/styles/normalize.css">
+    <link rel="stylesheet" href="/{display_mode}/styles/main.css">
 
     <meta name="theme-color" content="#5A0FC8">
 </head>
@@ -18,16 +18,22 @@
 <body>
 
     <header class="header">
-        <h1 class="header__title">PWA Display Test</h1>
-        <nav class="header__nav" data-display-mode="{display_mode}">
+        <div class="header__row">
+            <h1 class="header__title">PWA Display Test</h1>
+            <a class="header__button" href="https://github.com/hwalab-developer/PWADisplayTest" target="_blank">
+                <img src="/{display_mode}/images/icons/baseline-help-24px.svg" alt="Help">
+            </a>
+        </div>
+        <nav class="header__row header__nav" data-display-mode="{display_mode}">
             <a class="header__link" href="/fullscreen/" data-display-mode="fullscreen">fullscreen</a>
             <a class="header__link" href="/standalone/" data-display-mode="standalone">standalone</a>
             <a class="header__link" href="/minimal-ui/" data-display-mode="minimal-ui">minimal-ui</a>
-            <a class="header__link" href="/browser/"    data-display-mode="browser">browser</a>
+            <a class="header__link" href="/browser/" data-display-mode="browser">browser</a>
         </nav>
     </header>
 
     <main class="main">
+        <p>I'm not a native app.</p>
         <p class="mb--0">Manifest display mode:
             <strong>{display_mode}</strong>
         </p>
