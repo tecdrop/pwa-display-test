@@ -36,25 +36,33 @@ p {
     margin: 0 0 1rem 0;
 }
 
+[hidden] {
+    display: none !important;
+}
+
 /* ==========================================================================
    Header
    ========================================================================== */
 
+.header {
+    background: #fff;
+    color: #000;
+}
+
 .header__title {
     font-size: 1.75rem;
+    font-weight: 500;
     margin: 0;
     padding: 1rem;
 }
 
 .header__nav {
-    border-bottom: 1px solid;
-    border-top: 1px solid;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0.5rem;
 }
 
 .header__link {
+    color: #000;
     flex-grow: 1;
     padding: 0.5rem 0;
 }
@@ -64,6 +72,7 @@ p {
 .header__nav[data-display-mode="minimal-ui"] .header__link[data-display-mode="minimal-ui"],
 .header__nav[data-display-mode="browser"] .header__link[data-display-mode="browser"]
 {
+    border-bottom: 4px solid #000;
     font-weight: bold;
 }
 
@@ -109,6 +118,16 @@ data[value] {
     data[value="browser"] {
         display: inline-block;
     }
+}
+
+.install-link {
+    display: inline-flex;
+}
+
+.install-link::before {
+    content: url("../images/icons/baseline-get_app-24px.svg");
+    display: inline-block;
+    margin-right: 0.5rem;
 }
 
 /* ==========================================================================

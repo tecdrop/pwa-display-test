@@ -15,17 +15,25 @@ export function generate(done) {
         return () => gulp.src("src/template/*.*").pipe(replace("{display_mode}", mode)).pipe(gulp.dest(`dist/${mode}/`));
     });
 
-    const styleTasks = displayModes.map(mode => { 
-        return () => copy("src/template/styles/*.css", `dist/${mode}/styles/`); 
+    const scriptsTasks = displayModes.map(mode => { 
+        return () => copy("src/template/scripts/*.js", `dist/${mode}/scripts/`);
     });
 
-    const imageTasks = displayModes.map(mode => {
+    const styleTasks = displayModes.map(mode => { 
+        return () => copy("src/template/styles/*.css", `dist/${mode}/styles/`);
+    });
+
+    const manifestImageTasks = displayModes.map(mode => {
         return () => copy(`src/template/images/manifest/${mode}/*.png`, `dist/${mode}/images/manifest/`);
+    });
+
+    const iconTasks = displayModes.map(mode => {
+        return () => copy("src/template/images/icons/*", `dist/${mode}/images/icons/`);
     });
 
     const commonTask = () => copy(["src/*", "!src/template"], "dist/");
 
-    const tasks = [...templateTasks, ...styleTasks, ...imageTasks, commonTask];
+    const tasks = [...templateTasks, ...scriptsTasks, ...styleTasks, ...manifestImageTasks, ...iconTasks, commonTask];
     return gulp.series(...tasks, seriesDone => {
         seriesDone();
         done();
