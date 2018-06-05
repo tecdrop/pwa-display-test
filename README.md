@@ -3,13 +3,13 @@ See how Progressive Web Apps (PWAs) look and feel on your devices and platforms.
 
 ## PWA Display Test in Windows
 
-(Windows 10.0.17134 / Chrome 67.0.3396.62)
-
 | Navigate [to the PWA](https://pwadtest.hwalab.com/standalone/) in Chrome and click _Install App_ | Click _Install_ in the web app install prompt |
 | :---: | :---: |
-| ![Standalone PWA Display Test - Windows Chrome - Install button](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-button.png?raw) | ![Standalone PWA Display Test - Windows Chrome - Install prompt](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-prompt.png?raw) |
+| ![Standalone PWA Display Test - Windows Chrome - Install button](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-button.png?raw=true) | ![Standalone PWA Display Test - Windows Chrome - Install prompt](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-prompt.png?raw=true) |
 | **An installed PWA looks like a native Windows app** | **The _fullscreen_ mode reverts to _standalone_ in Windows** |
-| ![Standalone PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome.png?raw) | ![Fullscreen PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/fullscreen-pwa-windows-chrome.png?raw) |
+| ![Standalone PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome.png?raw=true) | ![Fullscreen PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/fullscreen-pwa-windows-chrome.png?raw=true) |
+
+_Note:_ The screenshots were taken on Windows 10.0.17134 / Chrome 67.0.3396.62.
 
 ## Contributions
 
