@@ -5,16 +5,20 @@
     },
     "extends": "eslint:all",
     "parserOptions": {
+        "ecmaVersion": 2017,
         "sourceType": "module"
     },
     "rules": {
-        "linebreak-style": ["error", "windows"],
-        "func-style": "off",
-        "space-before-function-paren": "off",
-        "padded-blocks": "off",
-        "one-var": "off",
-        "max-len": ["error", 120],
         "array-element-newline": "off",
-        "arrow-parens": ["error", "as-needed"]
+        "arrow-parens": ["error", "as-needed"],
+        "func-style": "off",
+        "init-declarations": "off",
+        "linebreak-style": ["error", "windows"],
+        "max-len": ["error", 120],
+        "multiline-comment-style": "off",
+        "object-curly-spacing": "off",
+        "one-var": "off",
+        "padded-blocks": "off",
+        "space-before-function-paren": "off"
     }
 }

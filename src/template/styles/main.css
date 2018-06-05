@@ -120,13 +120,18 @@ data[value] {
     }
 }
 
+/*
+ * Install App link
+ */
+
 .install-link {
     display: inline-flex;
+    margin-bottom: 1rem;
 }
 
 .install-link::before {
     content: url("../images/icons/baseline-get_app-24px.svg");
-    display: inline-block;
+    height: 24px;
     margin-right: 0.5rem;
 }
 
