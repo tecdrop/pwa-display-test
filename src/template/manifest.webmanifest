@@ -9,7 +9,12 @@
     "display": "{display_mode}",
     "icons": [
         {
-            "src": "./images/manifest/app-icon-{display_mode}-512.png",
+            "src": "./images/manifest/pwa-display-test-{display_mode}-app-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/manifest/pwa-display-test-{display_mode}-app-icon-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
