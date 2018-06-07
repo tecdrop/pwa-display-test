@@ -1,6 +1,17 @@
 # PWA Display Test
 **See how Progressive Web Apps (PWAs) look and feel on your devices and platforms.** Try it on Android, iOS, Linux, macOS, Windows, and other operating systems. Test if the standalone display mode really opens the PWA to look and feel like a standalone native application. Test if a fullscreen PWA really takes up the entirety of your screen. Try all the web app manifest display modes: fullscreen, standalone, minimal-ui and browser. To install PWA Display Test, navigate to its address and click the Install App button in supported browsers.
 
+## PWA Display Mode Status
+
+Preferred display mode vs. actual display mode on various platforms and browsers:
+
+| Display mode / Platform | fullscreen    | standalone     | minimal-ui    | browser     |
+| ---                     | ---           | ---            | ---           | ---         |
+| Android/Chrome          | ✔️ fullscreen | ✔️ standalone | ✔️ minimal-ui | ✔️ browser |
+| Windows/Chrome          | ✖️ standalone | ✔️ standalone | ✖️ standalone | ✔️ browser |
+
+_Last updated:_ June 7, 2018
+
 ## PWA Display Test on Android
 
 | Go [to the PWA](https://pwadtest.hwalab.com/standalone/) and click _Install App_ | Click _Add to Home screen_ in prompt | A PWA looks like a native app |
