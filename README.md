@@ -1,12 +1,22 @@
 # PWA Display Test
 See how Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and other operating systems. Test if the standalone display mode really opens the PWA to look and feel like a standalone native application. Test if a fullscreen PWA really takes up the entirety of your screen. Try all the web app manifest display modes: fullscreen, standalone, minimal-ui and browser. To install PWA Display Test, navigate to its address and click the Install App button in supported browsers.
 
-## PWA Display Test in Windows
+## PWA Display Test on Android
+
+| Go [to the PWA](https://pwadtest.hwalab.com/standalone/) and click _Install App_ | Click _Add to Home screen_ in prompt | A PWA looks like a native app |
+| :---: | :---: | :---: |
+| ![Standalone PWA Display Test - Android Chrome - Install button](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-android-chrome-install-button.png?raw=true) | ![Standalone PWA Display Test - Android Chrome - Install prompt](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-android-chrome-install-prompt.png?raw=true) | ![Standalone PWA Display Test - Android](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-android-chrome.png?raw=true) |
+| **A _fullscreen_ PWA covers everything** | **A _minimal-ui_ PWA shows the URL** | **It works offline even in the browser** |
+| ![Fullscreen PWA Display Test - Android](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/fullscreen-pwa-android-chrome.png?raw=true) | ![Minimal-ui PWA Display Test - Android](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/minimal-ui-pwa-android-chrome.png?raw=true) | ![Browser PWA Display Test - Android](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/browser-pwa-android-chrome.png?raw=true) |
+
+_Note:_ The screenshots were taken on Android 6.0.1 / Chrome 67.0.3396.68.
+
+## PWA Display Test on Windows
 
 | Navigate [to the PWA](https://pwadtest.hwalab.com/standalone/) in Chrome and click _Install App_ | Click _Install_ in the web app install prompt |
 | :---: | :---: |
 | ![Standalone PWA Display Test - Windows Chrome - Install button](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-button.png?raw=true) | ![Standalone PWA Display Test - Windows Chrome - Install prompt](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome-install-prompt.png?raw=true) |
-| **An installed PWA looks like a native Windows app** | **The _fullscreen_ mode reverts to _standalone_ in Windows** |
+| **An installed PWA looks like a native Windows app** | **No _fullscreen_ mode in Windows?** |
 | ![Standalone PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/standalone-pwa-windows-chrome.png?raw=true) | ![Fullscreen PWA Display Test - Windows](https://github.com/hwalab-developer/repo-assets/blob/master/pwadisplaytest/readme/fullscreen-pwa-windows-chrome.png?raw=true) |
 
 _Note:_ The screenshots were taken on Windows 10.0.17134 / Chrome 67.0.3396.62.
