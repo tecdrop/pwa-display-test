@@ -1,5 +1,5 @@
 # PWA Display Test
-See how Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and other operating systems. Test if the standalone display mode really opens the PWA to look and feel like a standalone native application. Test if a fullscreen PWA really takes up the entirety of your screen. Try all the web app manifest display modes: fullscreen, standalone, minimal-ui and browser. To install PWA Display Test, navigate to its address and click the Install App button in supported browsers.
+**See how Progressive Web Apps (PWAs) look and feel on your devices and platforms.** Try it on Android, iOS, Linux, macOS, Windows, and other operating systems. Test if the standalone display mode really opens the PWA to look and feel like a standalone native application. Test if a fullscreen PWA really takes up the entirety of your screen. Try all the web app manifest display modes: fullscreen, standalone, minimal-ui and browser. To install PWA Display Test, navigate to its address and click the Install App button in supported browsers.
 
 ## PWA Display Test on Android
 
@@ -21,13 +21,21 @@ _Note:_ The screenshots were taken on Android 6.0.1 / Chrome 67.0.3396.68.
 
 _Note:_ The screenshots were taken on Windows 10.0.17134 / Chrome 67.0.3396.62.
 
+## Development
+
+PWA Display Test is hosted on GitHub Pages, and served from the [gh-pages](https://github.com/hwalab-developer/PWADisplayTest/tree/gh-pages) branch.
+
+The project uses [Gulp](gulpfile.babel.js) and a [template](src/template) to generate the 4 PWAs ([fullscreen](https://github.com/hwalab-developer/PWADisplayTest/tree/gh-pages/fullscreen), [standalone](https://github.com/hwalab-developer/PWADisplayTest/tree/gh-pages/standalone), [minimal-ui](https://github.com/hwalab-developer/PWADisplayTest/tree/gh-pages/minimal-ui), and [browser](https://github.com/hwalab-developer/PWADisplayTest/tree/gh-pages/browser)) in the `dist` directory, where the `gh-pages` branch is checked out using git's [worktree](https://git-scm.com/docs/git-worktree) feature.
+
+Prerequisites: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [Workbox](https://developers.google.com/web/tools/workbox/), [ESLint](https://eslint.org/). Editor: [Visual Studio Code](https://code.visualstudio.com/).
+
 ## Contributions
 
 Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/hwalab-developer/PWADisplayTest/issues).
 
-## Sponsor
+## Acknowledgements
 
-PWA Display Test (and all HWALab free apps) are supported by [East-Tec](http://www.east-tec.com), the home of [east-tec Eraser](http://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
+PWA Display Test (and all HWALab free apps) have been developed with kind support from [East-Tec](http://www.east-tec.com), the home of [east-tec Eraser](http://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
 
 ## License
 
