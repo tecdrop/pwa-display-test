@@ -1,18 +1,20 @@
 /* eslint-disable require-jsdoc, no-console */
 
-import gulp from "gulp";
-import del from "del";
-import replace from "gulp-replace";
+const { src, dest, series } = require('gulp');
+const del = require("del");
+const replace = require("gulp-replace");
 
 const displayModes = ["fullscreen", "standalone", "minimal-ui", "browser"];
 
-export const clean = () => del(["dist/**", "!dist", "!dist/.git"]);
+const cleanDist = () => del(["dist/**", "!dist", "!dist/.git"]);
 
-const copy = (src, dest) => gulp.src(src).pipe(gulp.dest(dest));
+const cleanWorkbox = () => del(["src/template/*.js", "src/template/*.map"]);
 
-export function generate(done) {
+const copy = (source, destination) => src(source).pipe(dest(destination));
+
+function generate(done) {
     const templateTasks = displayModes.map(mode => {
-        return () => gulp.src("src/template/*.*").pipe(replace("{display_mode}", mode)).pipe(gulp.dest(`dist/${mode}/`));
+        return () => src("src/template/*.*").pipe(replace("{display_mode}", mode)).pipe(dest(`dist/${mode}/`));
     });
 
     const scriptsTasks = displayModes.map(mode => { 
@@ -34,13 +36,10 @@ export function generate(done) {
     const commonTask = () => copy(["src/*", "!src/template"], "dist/");
 
     const tasks = [...templateTasks, ...scriptsTasks, ...styleTasks, ...manifestImageTasks, ...iconTasks, commonTask];
-    return gulp.series(...tasks, seriesDone => {
+    return series(...tasks, seriesDone => {
         seriesDone();
         done();
     })();
 }
 
-
-const build = gulp.series(clean, generate);
-gulp.task("build", build);
-export default build;
+exports.default = series(cleanDist, generate, cleanWorkbox);

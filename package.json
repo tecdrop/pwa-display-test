@@ -1,18 +1,16 @@
 {
-    "name": "pwadisplaytest",
+    "name": "pwadis",
     "version": "1.0.0",
     "description": "PWA Display Test",
     "keywords": [],
-    "author": "HWALab",
+    "author": "Appgramming",
     "license": "MIT",
     "scripts": {
-        "build": "workbox generateSW; gulp"
+        "build": "workbox generateSW && gulp"
     },
     "devDependencies": {
-        "babel-preset-env": "^1.7.0",
-        "babel-register": "^6.26.0",
-        "del": "^3.0.0",
-        "gulp": "^4.0.0",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
         "gulp-replace": "^1.0.0"
     }
 }
