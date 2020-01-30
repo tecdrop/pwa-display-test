@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>standalone PWA Display Test</title>
+    <meta name="description" content="See how standalone Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and more.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="stylesheet" href="/standalone/styles/normalize.css">
+    <link rel="stylesheet" href="/standalone/styles/main.css">
+
+    <meta name="theme-color" content="#3c0a86">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__row">
+            <h1 class="header__title">PWA Display Test</h1>
+            <a class="header__button" href="https://github.com/hwalab-developer/PWADisplayTest" target="_blank" rel="noopener">
+                <img src="/standalone/images/icons/baseline-help-24px.svg" alt="Help">
+            </a>
+        </div>
+        <nav class="header__row header__nav" data-display-mode="standalone">
+            <a class="header__link" href="/fullscreen/" data-display-mode="fullscreen">fullscreen</a>
+            <a class="header__link" href="/standalone/" data-display-mode="standalone">standalone</a>
+            <a class="header__link" href="/minimal-ui/" data-display-mode="minimal-ui">minimal-ui</a>
+            <a class="header__link" href="/browser/" data-display-mode="browser">browser</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <p class="mb--0">Manifest display mode:
+            <strong>standalone</strong>
+        </p>
+
+        <p class="mb--0">
+            Actual display mode:
+            <strong>
+                <data value="fullscreen">fullscreen</data>
+                <data value="standalone">standalone</data>
+                <data value="minimal-ui">minimal-ui</data>
+                <data value="browser">browser</data>
+            </strong>
+        </p>
+    </main>
+
+    <footer class="footer">
+        <a hidden href="#" class="install-link">Install App</a>
+    </footer>
+
+    <script src="/standalone/scripts/main.js"></script>
+
+    <script>
+        // Register service worker
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("/standalone/sw.js", { scope: '/standalone/' });
+            });
+        }
+    </script>
+</body>
+
+</html>

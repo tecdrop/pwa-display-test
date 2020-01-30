@@ -1,0 +1,22 @@
+{
+    "short_name": "minimal-ui PWA",
+    "name": "minimal-ui PWA Display Test",
+    "description": "See how minimal-ui Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and other operating systems.",
+    "scope": "/minimal-ui/",
+    "background_color": "#5A0FC8",
+    "theme_color": "#3c0a86",
+    "start_url": "/minimal-ui/?utm_source=pwa",
+    "display": "minimal-ui",
+    "icons": [
+        {
+            "src": "./images/manifest/pwa-display-test-minimal-ui-app-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/manifest/pwa-display-test-minimal-ui-app-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

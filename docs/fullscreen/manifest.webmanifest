@@ -1,0 +1,22 @@
+{
+    "short_name": "fullscreen PWA",
+    "name": "fullscreen PWA Display Test",
+    "description": "See how fullscreen Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and other operating systems.",
+    "scope": "/fullscreen/",
+    "background_color": "#5A0FC8",
+    "theme_color": "#3c0a86",
+    "start_url": "/fullscreen/?utm_source=pwa",
+    "display": "fullscreen",
+    "icons": [
+        {
+            "src": "./images/manifest/pwa-display-test-fullscreen-app-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/manifest/pwa-display-test-fullscreen-app-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
