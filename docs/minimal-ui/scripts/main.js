@@ -1,6 +1,6 @@
 /*
- *  PWA Display Test. Copyright (c) 2018-2020 Appgramming. MIT License.
- *  https://www.appgramming.com/pwadis/
+ *  PWA Display Test. Copyright (c) 2018-2020 Appliberated. MIT License.
+ *  https://www.appliberated.com/pwadisplaytest/
  */
 
 /* eslint-disable no-console */

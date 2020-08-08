@@ -1,12 +1,12 @@
 {
-    "name": "pwadis",
-    "version": "1.1.0",
+    "name": "pwadisplaytest",
+    "version": "1.1.1",
     "description": "PWA Display Test",
     "keywords": [],
-    "author": "Appgramming",
+    "author": "Appliberated",
     "license": "MIT",
     "scripts": {
-        "build": "workbox generateSW && gulp"
+        "build": "workbox generateSW workbox-config.js && gulp"
     },
     "devDependencies": {
         "del": "^5.1.0",
