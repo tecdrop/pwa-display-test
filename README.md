@@ -16,7 +16,7 @@ _Last updated:_ June 7, 2018
 
 ## PWA Display Test on Android
 
-| Go [to the PWA](https://pwadtest.appliberated.com/standalone/) and click _Install App_ | Click _Add to Home screen_ in prompt | A PWA looks like a native app |
+| Go [to the PWA](https://pwadit.appliberated.com/standalone/) and click _Install App_ | Click _Add to Home screen_ in prompt | A PWA looks like a native app |
 | :---: | :---: | :---: |
 | ![Standalone PWA Display Test - Android Chrome - Install button](assets/repo/readme/standalone-pwa-android-chrome-install-button.png) | ![Standalone PWA Display Test - Android Chrome - Install prompt](assets/repo/readme/standalone-pwa-android-chrome-install-prompt.png) | ![Standalone PWA Display Test - Android](assets/repo/readme/standalone-pwa-android-chrome.png) |
 | **A _fullscreen_ PWA covers everything** | **A _minimal-ui_ PWA shows the URL** | **It works offline even in the browser** |
@@ -26,7 +26,7 @@ _Note:_ The screenshots were taken on Android 6.0.1 / Chrome 67.0.3396.68.
 
 ## PWA Display Test on Windows
 
-| Navigate [to the PWA](https://pwadtest.appliberated.com/standalone/) in Chrome and click _Install App_ | Click _Install_ in the web app install prompt |
+| Navigate [to the PWA](https://pwadit.appliberated.com/standalone/) in Chrome and click _Install App_ | Click _Install_ in the web app install prompt |
 | :---: | :---: |
 | ![Standalone PWA Display Test - Windows Chrome - Install button](assets/repo/readme/standalone-pwa-windows-chrome-install-button.png) | ![Standalone PWA Display Test - Windows Chrome - Install prompt](assets/repo/readme/standalone-pwa-windows-chrome-install-prompt.png) |
 | **An installed PWA looks like a native Windows app** | **No _fullscreen_ mode in Windows?** |
