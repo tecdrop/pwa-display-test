@@ -27,13 +27,13 @@ _Note:_ The screenshots were taken on Android 6.0.1 / Chrome 67.0.3396.68.
 
 ## PWA Display Test on Windows
 
-| Navigate [to the PWA](https://pwadisplaytest.tecdrop.com/standalone/) in Chrome and click _Install App_ | Click _Install_ in the web app install prompt |
+| Navigate [to the PWA](https://pwadisplaytest.tecdrop.com/standalone/) and click _Install App_ | Click _Install_ in the install prompt |
 | :---: | :---: |
 | ![Standalone PWA Display Test - Windows Chrome - Install button](assets/repo/readme/standalone-pwa-windows-chrome-install-button.png) | ![Standalone PWA Display Test - Windows Chrome - Install prompt](assets/repo/readme/standalone-pwa-windows-chrome-install-prompt.png) |
 | **An installed PWA looks like a native Windows app** | **No _fullscreen_ mode in Windows?** |
 | ![Standalone PWA Display Test - Windows](assets/repo/readme/standalone-pwa-windows-chrome.png) | ![Fullscreen PWA Display Test - Windows](assets/repo/readme/fullscreen-pwa-windows-chrome.png) |
 
-_Note:_ The screenshots were taken on Windows 10.0.17134 / Chrome 67.0.3396.62.
+_Note:_ The screenshots were taken on Windows 10.0.19043 / Chrome 94.0.4606.71, on Oct 4, 2021.
 
 ## Development
 
