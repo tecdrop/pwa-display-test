@@ -1,4 +1,5 @@
 # PWA Display Test
+
 **See how Progressive Web Apps (PWAs) look and feel on your devices and platforms.** Try it on Android, iOS, Linux, macOS, Windows, and other operating systems. Test if the standalone display mode really opens the PWA to look and feel like a standalone native application. Test if a fullscreen PWA really takes up the entirety of your screen. Try all the web app manifest display modes: fullscreen, standalone, minimal-ui and browser. To install PWA Display Test, navigate to its address and click the Install App button in supported browsers.
 
 [![Lighthouse Score: 100](https://img.shields.io/badge/lighthouse-100-brightgreen.svg)](https://pwa-directory.appspot.com/pwas/5686673000628224)
@@ -36,7 +37,7 @@ _Note:_ The screenshots were taken on Windows 10.0.17134 / Chrome 67.0.3396.62.
 
 ## Development
 
-PWA Display Test is hosted on GitHub Pages, and served from the [docs folder](https://github.com/appliberated/PWADisplayTest/tree/master/docs) in the `master` branch.
+PWA Display Test is hosted on GitHub Pages, and served from the [docs folder](https://github.com/tecdrop/pwa-display-test/tree/main/docs) in the `master` branch.
 
 The project uses [Gulp](gulpfile.js) and a [template](src/template) to generate the 4 PWAs ([fullscreen](docs/fullscreen), [standalone](docs/standalone), [minimal-ui](docs/minimal-ui), and [browser](docs/browser)) in the `docs` folder.
 
@@ -44,11 +45,7 @@ Prerequisites: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [
 
 ## Contributions
 
-Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/appliberated/PWADisplayTest/issues).
-
-## Acknowledgements
-
-PWA Display Test (and all Appliberated free apps) have been developed with kind support from [East-Tec](https://www.east-tec.com), the home of [east-tec Eraser](https://www.east-tec.com/eraser/), the privacy tool that quickly and securely covers your online and PC tracks.
+Contributions are welcome! For feature requests and bug reports please [submit an issue](https://github.com/tecdrop/pwa-display-test/issues).
 
 ## License
 

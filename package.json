@@ -1,16 +1,16 @@
 {
-    "name": "pwadisplaytest",
-    "version": "1.1.1",
-    "description": "PWA Display Test",
-    "keywords": [],
-    "author": "Appliberated",
-    "license": "MIT",
-    "scripts": {
-        "build": "workbox generateSW workbox-config.js && gulp"
-    },
-    "devDependencies": {
-        "del": "^5.1.0",
-        "gulp": "^4.0.2",
-        "gulp-replace": "^1.0.0"
-    }
+  "name": "pwadisplaytest",
+  "version": "1.1.2",
+  "description": "PWA Display Test",
+  "private": true,
+  "scripts": {
+    "build": "workbox generateSW workbox-config.js && gulp"
+  },
+  "author": "Tecdrop",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-replace": "^1.1.3"
+  }
 }

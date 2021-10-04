@@ -1,6 +1,6 @@
 /*
- *  PWA Display Test. Copyright (c) 2018-2020 Appliberated. MIT License.
- *  https://www.appliberated.com/pwadisplaytest/
+ *  PWA Display Test. Copyright (c) 2018-2021 Tecdrop. MIT License.
+ *  https://www.tecdrop.com
  */
 
 /* eslint-disable no-console */
