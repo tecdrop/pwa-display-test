@@ -1,10 +1,11 @@
 {
-  "name": "pwadisplaytest",
-  "version": "1.1.2",
+  "name": "pwa-display-test",
+  "version": "1.2.0",
   "description": "PWA Display Test",
   "private": true,
   "scripts": {
-    "build": "workbox generateSW workbox-config.js && gulp"
+    "dev": "live-server dist/",
+    "build": "gulp"
   },
   "author": "Tecdrop",
   "license": "MIT",

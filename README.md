@@ -41,7 +41,7 @@ PWA Display Test is hosted on GitHub Pages, and served from the [docs folder](ht
 
 The project uses [Gulp](gulpfile.js) and a [template](src/template) to generate the 4 PWAs ([fullscreen](docs/fullscreen), [standalone](docs/standalone), [minimal-ui](docs/minimal-ui), and [browser](docs/browser)) in the `docs` folder.
 
-Prerequisites: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [Workbox](https://developers.google.com/web/tools/workbox/), [ESLint](https://eslint.org/). Editor: [Visual Studio Code](https://code.visualstudio.com/).
+Prerequisites: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [ESLint](https://eslint.org/). Editor: [Visual Studio Code](https://code.visualstudio.com/).
 
 ## Contributions
 
