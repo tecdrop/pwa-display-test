@@ -1,4 +1,4 @@
-const cacheName = 'pwa-display-test-v4';
+const cacheName = 'pwa-display-test-v5';
 const contentToCache = [
   '/{display_mode}/',
   '/{display_mode}/index.html',
