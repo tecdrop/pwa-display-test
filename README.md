@@ -11,6 +11,7 @@ Preferred display mode vs. actual display mode on various platforms and browsers
 | Display mode / Platform | fullscreen    | standalone     | minimal-ui    | browser     |
 | ---                     | ---           | ---            | ---           | ---         |
 | Android/Chrome          | ✔️ fullscreen | ✔️ standalone | ✔️ minimal-ui | ✔️ browser |
+| Windows/Brave           | ✖️ standalone | ✔️ standalone | ✔️ minimal-ui | ✔️ browser |
 | Windows/Chrome          | ✖️ standalone | ✔️ standalone | ✔️ minimal-ui | ✔️ browser |
 
 _Last updated:_ Oct 4, 2021
