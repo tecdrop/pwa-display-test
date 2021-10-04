@@ -9,4 +9,4 @@ community_bridge: # Replace with a single Community Bridge project-name e.g., cl
 liberapay: # Replace with a single Liberapay username
 issuehunt: # Replace with a single IssueHunt username
 otechie: # Replace with a single Otechie username
-custom: ['https://www.tecdrop.com/pitchblackwallpaperpro/?utm_source=github&utm_medium=button&utm_campaign=github-sponsor-button', 'https://play.google.com/store/apps/details?id=com.tecdrop.pitchblackwallpaperpro&referrer=utm_source%3Dgithub%26utm_medium%3Dbutton%26utm_campaign%3Dgithub-sponsor-button']
+custom: ['https://www.tecdrop.com/pitchblackwallpaperpro/', 'https://play.google.com/store/apps/details?id=com.tecdrop.pitchblackwallpaperpro']
